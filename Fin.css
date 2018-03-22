@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+button{
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.main-container{
+    background-color: rgb(250, 250, 250);
+    height: 80%;
+    width: 80%;
+    display: flex;  
+    border: black;
+    flex-wrap: wrap;
+ justify-content: center;
+ padding: 25px;
+
+ -webkit-box-shadow: -2px 53px 73px -1px rgba(0,0,0,0.75);
+ -moz-box-shadow: -2px 53px 73px -1px rgba(0,0,0,0.75);
+ box-shadow: -2px 53px 73px -1px rgba(0,0,0,0.75);
+
+ border-radius: 12px 12px 12px 12px;
+-moz-border-radius: 12px 12px 12px 12px;
+-webkit-border-radius: 12px 12px 12px 12px;
+border: 0px solid #000000;
+}
+
+.back-container{
+    /* background-color: rgb(241, 10, 10); */
+    height: 100%;
+    width: 100%;
+    display: flex;  
+    border: black;
+    flex-wrap: wrap;
+ justify-content: center;
+
+ 
+}
+
+
+.nav{
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 10px;
+    width: 150px;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.content-container{
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    flex-direction: column;
+    background-color: rgb(255, 255, 255)   ;
+    height: 320px;
+    width: 250px;
+    margin: 5px;
+    padding: 5px;
+    border:1px solid;
+    
+}
+
+
+.header-container{
+    height: 40px;
+    width: auto;
+    text-align: center;
+    font-weight: bold;
+
+}
+.photo-container{
+height: 200px;
+width: auto;
+margin: 5px;
+    padding: 5px;
+
+
+}
+.img{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.orderButton-container{
+    height: auto;
+    width: auto;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+}
+
+th {
+    font-size: 13px;
+    font-weight: normal;
+    background: #b9c9fe;
+    border-top: 4px solid #aabcfe;
+    border-bottom: 1px solid #fff;
+    color: #039;
+    padding: 8px;
+  }
+  td {
+    background: #e8edff;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid transparent;
+    padding: 8px;
+  }
+  tr:hover td {background: #ccddff;}
